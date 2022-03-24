@@ -8,22 +8,22 @@ $(document).ready(function() {
 
     let result;
     if (operator1 === "answer1" && operator2 === "answer1" && operator3 === "answer1") {
-      result = "result 1"
+      result = "Sir Lancelot"
      }  else if (operator1 == "answer1" && operator2 === "answer2" && operator3 === "answer1") {
-      result = "result2";
+      result = "Cardinal Ximinez";
      }  else if (operator1 == "answer1" && operator2 === "answer1" && operator3 === "answer2") {
-      result = "result3";
+      result = "Michael Ellis";
      }  else if (operator1 == "answer1" && operator2 === "answer2" && operator3 === "answer2") {
-      result = "result4";
+      result = "Dennis Moore";
      }
      if (operator1 == "answer2" && operator2 === "answer1" && operator3 === "answer1") {
-      result = "result5";
+      result = "Brian";
      }  else if (operator1 == "answer2" && operator2 === "answer2" && operator3 === "answer1") {
-      result = "result6";
+      result = "Tim the Enchanter";
      }  else if (operator1 == "answer2" && operator2 === "answer1" && operator3 === "answer2") {
-      result = "result7";
+      result = "The Bishop";
      }  else if (operator1 == "answer2" && operator2 === "answer2" && operator3 === "answer2") {
-      result = "result8";
+      result = "Instructor Cleese";
      }
     $("#output").text(result);
   });
